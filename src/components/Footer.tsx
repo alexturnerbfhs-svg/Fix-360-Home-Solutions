@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center mb-8 inline-block">
+            <Link to="/" className="inline-block mb-8 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
               <img 
-                src="https://fix360homesolution.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-04.18.12_e1831151.jpg" 
+                src="https://lh3.googleusercontent.com/d/1kHRvxm9wxpOvsyBaevXXthhua_VagErz" 
                 alt="Fix360 Home Solution" 
-                className="h-20 sm:h-24 w-auto object-contain"
+                className="h-28 sm:h-36 w-auto object-contain"
               />
             </Link>
             <p className="text-gray-400 max-w-md text-lg leading-relaxed">
