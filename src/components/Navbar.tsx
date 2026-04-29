@@ -20,11 +20,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center gap-3">
+            <Link to="/" className="flex items-center">
               <img 
                 src="https://fix360homesolution.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-04.18.12_e1831151.jpg" 
-                alt="Fix360 Home Solution Logo" 
-                className="h-14 w-auto object-contain rounded-lg shadow-sm border border-gray-100"
+                alt="Fix360 Home Solution" 
+                className="h-16 w-auto object-contain transition-transform hover:scale-105 duration-300"
               />
             </Link>
           </div>

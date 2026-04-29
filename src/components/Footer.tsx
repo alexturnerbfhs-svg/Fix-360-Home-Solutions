@@ -7,11 +7,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center gap-4 mb-8 inline-block">
+            <Link to="/" className="flex items-center mb-8 inline-block">
               <img 
                 src="https://fix360homesolution.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-04.18.12_e1831151.jpg" 
-                alt="Fix360 Home Solution Logo" 
-                className="h-16 sm:h-20 w-auto object-contain rounded-xl shadow-md border border-gray-800"
+                alt="Fix360 Home Solution" 
+                className="h-20 sm:h-24 w-auto object-contain"
               />
             </Link>
             <p className="text-gray-400 max-w-md text-lg leading-relaxed">
@@ -39,11 +39,17 @@ export default function Footer() {
               </li>
               <li>
                 <span className="block text-gray-300 font-medium mb-1">Phone:</span>
-                <a href="tel:+12139850985" className="hover:text-white transition-colors">(213) 985-0985</a>
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+12139850985" className="hover:text-white transition-colors">(213) 985-0985</a>
+                </div>
               </li>
               <li>
                 <span className="block text-gray-300 font-medium mb-1">Email:</span>
                 <a href="mailto:contact@fix360homesolution.com" className="hover:text-white transition-colors">contact@fix360homesolution.com</a>
+              </li>
+              <li>
+                <span className="block text-gray-300 font-medium mb-1">Website:</span>
+                <a href="https://fix360homesolution.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors underline underline-offset-4 decoration-brand-orange-500/50">www.fix360homesolution.com</a>
               </li>
               <li className="pt-4">
                 <div className="flex gap-4">
